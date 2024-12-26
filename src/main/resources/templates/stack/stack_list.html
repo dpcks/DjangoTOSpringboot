@@ -84,7 +84,7 @@
                 <div class="skill-list">
                     <ul>
                         <li th:each="rs : ${s.relatedStackList}">
-                            <a class="skill-icon" th:href="@{/stack/${rs.relatedStackPk}}">
+                            <a class="skill-icon" th:href="@{/stack/{id}(id=${rs.relatedStackPk})}">
                                 <img th:src="${rs.relatedStackLogo}" alt="아이콘">
                             </a>
                         </li>

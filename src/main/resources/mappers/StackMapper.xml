@@ -23,7 +23,8 @@
         SELECT
             rs.related_stack AS relatedStack,
             rs.related_stack_logo AS relatedStackLogo,
-            rs.stack_name_id AS stackNameId
+            rs.stack_name_id AS stackNameId,
+            rs.related_stack_pk AS relatedStackPk
         FROM
             Related_Stack rs
             <if test="stackId != null and stackId.size() > 0">
