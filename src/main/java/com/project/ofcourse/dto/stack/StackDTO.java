@@ -18,6 +18,5 @@ public class StackDTO {
     private List<RelatedStackDTO> relatedStackList; // 관련스택 리스트
     private List<CompanyDTO> companyList; // 스택을 사용중인 회사 리스트
     private List<CourseDTO> bestCourseList; // 스택 베스트5 강의
-//    private List<Long> relatedStackPkList; // 관련 스택 PK 리스트 추가
 }
 
