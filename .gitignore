@@ -42,5 +42,4 @@ out/
 # Environment files
 .env
 
-# DB
 /application.properties
